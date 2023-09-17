@@ -4,8 +4,8 @@ I have done only backend side of assignment ,I have used Node.js,Express.js,Mong
 In side Project make two models One UserModel and PostModel ,for userModel mode create two api create and login,and postmodel performed 'curd operation' create,update ,get and delete,
 
 Models:-
-
      UserModel
+     
      
       {
 

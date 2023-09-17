@@ -1,7 +1,9 @@
 # Blog_sit_assignment
-I have done only backend side of assignment ,I have used Node.js,Express.js,MongoDB and a part from that I have use same dependency like "jsonwebtoken" for create token (authentication,authrization),"mongoose" used for connected to node.js mongoBD,"multer" used for many types file upload our local storage and use nodemo for auto save and auto run sever .
+I have done only backend side of assignment ,I have used Node.js,Express.js,MongoDB and a part from that I have use same dependency like "jsonwebtoken" for create token (authentication,authrization),"mongoose" used for connected to node.js mongoBD,"multer" used for many types file upload our local storage and use nodemo for auto save and auto run sever.
+
 In side Project make two models One UserModel and PostModel ,for userModel mode create two api create and login,and postmodel performed 'curd operation' create,update ,get and delete,
-UserModel:-{
+UserModel
+{
    Name:{type:String,required:true},
    Email:{type:String,required:true,unique:true},
    Password:{type:String,required:true},
@@ -9,7 +11,8 @@ UserModel:-{
 
 }
 
-PostModel:-{
+PostModel
+{
     title: {
         type: String, 
         required: true

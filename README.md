@@ -6,7 +6,6 @@ In side Project make two models One UserModel and PostModel ,for userModel mode 
 
 
 Models:-
-
      UserModel
       {
 
